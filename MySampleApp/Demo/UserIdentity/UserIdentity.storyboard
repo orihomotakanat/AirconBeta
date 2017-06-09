@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Identity-->
+        <scene sceneID="e2Z-X7-nKA">
+            <objects>
+                <viewController storyboardIdentifier="UserIdentity" title="User Identity" id="XAe-6D-inr" customClass="FeatureDescriptionViewController" customModule="MySampleApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PoC-zG-Ln8"/>
+                        <viewControllerLayoutGuide type="bottom" id="b5n-5V-2Nm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oTC-KH-ri5">
+                        <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Powered by Amazon Cognito" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgi-Bh-epE">
+                                <rect key="frame" x="224" y="470.5" width="151" height="13.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fy5-rW-NBc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="241" y="364"/>
+        </scene>
+        <!--User Identity-->
+        <scene sceneID="N3v-4H-Oy9">
+            <objects>
+                <viewController title="User Identity" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hif-eS-niX" customClass="UserIdentityViewController" customModule="MySampleApp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="db7-Pg-fLO"/>
+                        <viewControllerLayoutGuide type="bottom" id="KfG-cT-FDa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kpE-Pz-4OC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Guest User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipd-BY-jJ5">
+                                <rect key="frame" x="258" y="271.5" width="85" height="19.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="User's unique identifier" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tT5-pb-Rro">
+                                <rect key="frame" x="239" y="299" width="122" height="13.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="&lt;UNKNOWN IDENTITY&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AHP-BY-rSy">
+                                <rect key="frame" x="20" y="312.5" width="560" height="19.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="User's name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoT-sv-9ZC">
+                                <rect key="frame" x="267.5" y="258" width="65.5" height="13.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="AHP-BY-rSy" secondAttribute="trailing" id="6Ux-OS-057"/>
+                            <constraint firstItem="AHP-BY-rSy" firstAttribute="centerX" secondItem="tT5-pb-Rro" secondAttribute="centerX" id="6hM-3s-Fqx"/>
+                            <constraint firstItem="tT5-pb-Rro" firstAttribute="centerX" secondItem="AHP-BY-rSy" secondAttribute="centerX" id="LGV-Vp-rye"/>
+                            <constraint firstItem="AHP-BY-rSy" firstAttribute="centerX" secondItem="kpE-Pz-4OC" secondAttribute="centerX" id="Peq-cK-Agm"/>
+                            <constraint firstItem="AHP-BY-rSy" firstAttribute="top" secondItem="tT5-pb-Rro" secondAttribute="bottom" constant="8" symbolic="YES" id="ef8-LX-iFN"/>
+                            <constraint firstItem="KfG-cT-FDa" firstAttribute="top" secondItem="AHP-BY-rSy" secondAttribute="bottom" constant="8" symbolic="YES" id="jBt-up-ADp"/>
+                            <constraint firstItem="tT5-pb-Rro" firstAttribute="centerX" secondItem="kpE-Pz-4OC" secondAttribute="centerX" id="lYQ-gV-U40"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="AHP-BY-rSy" secondAttribute="leading" id="poy-cx-cnc"/>
+                            <constraint firstItem="tT5-pb-Rro" firstAttribute="top" secondItem="ipd-BY-jJ5" secondAttribute="bottom" constant="8" symbolic="YES" id="r9c-7I-uMU"/>
+                            <constraint firstItem="ipd-BY-jJ5" firstAttribute="top" secondItem="xoT-sv-9ZC" secondAttribute="bottom" id="vMy-mp-Hr3"/>
+                            <constraint firstItem="AHP-BY-rSy" firstAttribute="top" secondItem="tT5-pb-Rro" secondAttribute="bottom" id="yHm-5E-rAh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Peq-cK-Agm"/>
+                                <exclude reference="ef8-LX-iFN"/>
+                                <exclude reference="poy-cx-cnc"/>
+                                <exclude reference="LGV-Vp-rye"/>
+                                <exclude reference="jBt-up-ADp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="userID" destination="AHP-BY-rSy" id="48E-fW-CUf"/>
+                        <outlet property="userName" destination="ipd-BY-jJ5" id="GeL-0m-Zvx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GyI-an-rtc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="966" y="364"/>
+        </scene>
+    </scenes>
+</document>

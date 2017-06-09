@@ -1,0 +1,28 @@
+platform :ios, '10.3'
+use_frameworks!
+
+target 'MySampleApp' do
+  pod 'SwiftyJSON'
+  pod 'Charts'
+  #pod 'Moscapsule', :git => 'https://github.com/flightonary/Moscapsule.git'
+  #pod 'OpenSSL-Universal'
+  #pod 'CocoaMQTT'
+  #pod 'SVProgressHUD'
+  pod 'KRProgressHUD'
+  pod 'KRActivityIndicatorView'
+  pod 'AWSIoT'
+  pod 'AWSCognito'
+  #pod 'MQTTClient'
+  #pod 'AWSDynamoDB'
+  #pod 'AWSKinesis'
+  #pod 'AWSLambda'
+  #pod 'AWSMachineLearning'
+  #pod 'AWSMobileAnalytics'
+  #pod 'AWSS3'
+  #pod 'AWSSES'
+  #pod 'AWSSimpleDB'
+  #pod 'AWSSNS'
+  #pod 'AWSSQS'
+  pod 'NVActivityIndicatorView'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+end
